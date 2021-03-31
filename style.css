@@ -1,0 +1,102 @@
+.one {
+  background: #ccc;
+  color: #ffffff;
+  text-align: center;
+}
+
+.one h1 {
+  font-size: 65px;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+.one p {
+  padding: 0 15%;
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+}
+
+.one a {
+  background: #252525;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 40px;
+  display: inline-block;
+font-family: 'Merriweather', serif;
+}
+
+.one a:hover {
+  background: #ffffff;
+  color: #222;
+}
+
+.four {
+  background: url('img/1st.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.two {
+  background: url('img/split-l.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.five {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/split-r.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.five h2 {
+  font-size: 65px;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+
+.five p {
+  padding: 0 15%;
+  font-size: 17px;
+  font-family: 'Merriweather', serif;
+}
+
+.three {
+  background-image: url('img/3rd.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.six {
+  text-align: center;
+}
+
+.six input {
+  width: 350px;
+  margin-bottom: 20px;
+  height: 30px;
+  border: 1px solid #000;
+}
+
+.six a {
+  display: block;
+  text-decoration: none;
+  background: #222;
+  width: 350px;
+  margin: 0 auto;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+#multiscroll-nav li {
+  padding-bottom: 100px
+}
+
+#multiscroll-nav li span {
+    background: #ccc;
+}
