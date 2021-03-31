@@ -108,4 +108,15 @@ font-family: 'Merriweather', serif;
   #multiscroll-nav li span {
     display: none;
   }
+
+  .six input {
+    width: 160px;
+    margin-bottom: 20px;
+    height: 30px;
+    border: 1px solid #000;
+  }
+
+  .six a {
+    width: 160px;
+  }
 }
