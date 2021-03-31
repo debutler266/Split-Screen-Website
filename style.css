@@ -31,26 +31,30 @@ font-family: 'Merriweather', serif;
 }
 
 .four {
-  background: url('img/1st.jpg');
+  background: url('img/sec1.jpg');
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
 }
 
 .two {
-  background: url('img/split-l.jpg');
+  background: url('img/left.jpg');
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .five {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/split-r.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/right.jpg');
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
   text-align: center;
   color: #ffffff;
+  width: 100vw;
+  height: 100vh;
 }
 
 .five h2 {
@@ -66,10 +70,11 @@ font-family: 'Merriweather', serif;
 }
 
 .three {
-  background-image: url('img/3rd.jpg');
+  background-image: url('img/sec3.jpg');
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
+  overflow: hidden;
 }
 
 .six {
