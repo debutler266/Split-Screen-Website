@@ -109,7 +109,7 @@ font-family: 'Merriweather', serif;
 
 /* Media queries */
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 625px) {
   #multiscroll-nav li span {
     display: none;
   }
